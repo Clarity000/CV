@@ -1,0 +1,50 @@
+/*
+    GENERAL
+*/
+
+
+
+
+.info {
+    display: flex;
+    width: 50rem;
+    height: 49rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.45);
+    border-radius: 1rem;
+    padding: 2rem;
+    gap: 2.5rem;
+}
+
+.brand-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 35rem;
+    margin: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4rem;
+}
+p{
+    font-size: 1.05rem;
+    width: 40rem;
+}
+
+
+
+
+
+/*
+    AJUSTES
+*/
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.3rem;
+}
